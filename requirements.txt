@@ -2,5 +2,6 @@ fastapi
 pytorch
 pydantic
 uvicorn
+torchvision
 transformers
 ```
