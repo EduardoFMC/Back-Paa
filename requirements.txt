@@ -1,6 +1,6 @@
 fastapi
 pytorch
 pydantic
-uvircorn
+uvicorn
 transformers
 ```
