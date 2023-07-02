@@ -2,4 +2,4 @@
  
 ## Getting started
 
-Run `unvicorn main::app --reload`
+Run `python -m uvicorn main:app --reload` to start the server.

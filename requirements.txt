@@ -1,7 +1,8 @@
 fastapi
-pytorch
 pydantic
 uvicorn
 torchvision
 transformers
-```
+torch
+torchvision
+torchaudio
