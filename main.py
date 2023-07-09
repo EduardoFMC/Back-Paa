@@ -7,6 +7,7 @@ from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 from transformers import pipeline
 
 from pretrained_model.distilbert_pokemon import distilbert_pokemon
+from qanswer.main import pokeQuestionAnswerer
 
 
 os.chdir(os.path.dirname(__file__))
@@ -48,7 +49,7 @@ async def process_string(data: QuestionData):
 
 @app.post("/pokemon/trained/question")
 async def answer_with_big_context(data: QuestionData):
-  return distilbert_pokemon.answer_with_big_context(data.question)
+  return pokeQuestionAnswerer.answer(data.question)
 
 @app.post("/pokemon/trained/question-context")
 async def answer_with_context(data: QuestionWithContextData):
