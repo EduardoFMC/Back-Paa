@@ -6,3 +6,6 @@ transformers
 torch
 torchvision
 torchaudio
+numpy
+nltk
+tensorflow
