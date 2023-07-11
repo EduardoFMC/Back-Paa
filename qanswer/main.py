@@ -220,11 +220,11 @@ class PokeQuestionAnswerer:
 
 
 
-questionAnswerer = PokeQuestionAnswerer()
+pokeQuestionAnswerer = PokeQuestionAnswerer()
 
-print("Welcome to the Pokemon Chatbot!")
-while True:
-  message = input("You > ")
-  res = questionAnswerer.answer(message)
-  print(f"Bot > {res['answer']}\n{res['statistics']}\n{'-'*50}")
+# print("Welcome to the Pokemon Chatbot!")
+# while True:
+#   message = input("You > ")
+#   res = questionAnswerer.answer(message)
+#   print(f"Bot > {res['answer']}\n{res['statistics']}\n{'-'*50}")
 
